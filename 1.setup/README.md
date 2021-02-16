@@ -75,9 +75,14 @@
    ㄴ consts
    ㄴ pages
    ㄴ hooks
+   ㄴ mocks
    ㄴ components
    ㄴ reducers
    ㄴ store
    ㄴ styles
    ㄴ services
 ```
+
+8. mocks 추가 feat. [msw](https://mswjs.io/)
+   - [링크](./src/mocks)
+   - mocking 할 api는 [handlers](./src/mocks/handlers)에 추가

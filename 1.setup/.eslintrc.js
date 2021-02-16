@@ -26,7 +26,7 @@ module.exports = {
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', 'ts', 'tsx'] }],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.tsx', '**/*.spec.ts', '**/*.setup.js'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/mocks/**/*.ts', '**/*.test.tsx', '**/*.spec.ts', '**/*.setup.js'] }],
   },
   settings: {
     'import/resolver': {
